@@ -1,0 +1,100 @@
+.quote {
+    padding: 4em 8em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "heading selection"
+                          "content selection"
+                          "form selection";
+    @media #{$mobile}, #{$tablet} {
+        text-align: center;
+
+    
+
+        padding: 3em 4em;
+    grid-template-columns: 1fr;
+    grid-template-areas: "heading"
+                         "selection"
+                         "content"
+                         "form";
+    }
+    
+
+    &__heading {
+        grid-area: heading;
+
+    .heading {
+        @include divider($color-orange, left);
+            @media #{$mobile}, #{$tablet} {
+            @include divider($color-orange, center);
+        }
+    }
+
+    }
+
+    &__content {
+        grid-area: content;
+        .lead {
+            margin: 1.5em 5.5em .5em 0;
+            color: $color-blue-dark;
+            @media #{$mobile}, #{$tablet} {
+                margin: 1em;
+            }        
+        }
+    }
+
+    &__form {
+        grid-area: form;
+    }
+
+    &__selection {
+        grid-area: selection;
+        justify-self: center;
+        margin-top: 4em;
+        .text {
+            text-transform: uppercase;
+            color: $color-orange;
+            font-weight: 700;
+            font-size: 1.2rem;
+        }
+        &__list {
+            margin-top: 1em;
+        }
+
+        
+ 
+        .selected___course___item {
+            color: $color-blue-dark;
+            font-weight: 700;
+            margin: 1em 0;
+            display: flex;
+            align-items: center;
+        }
+        .remove__course__button {
+            border: 1px solid black;
+            background: none;
+            cursor: pointer;
+            line-height: 0;
+            margin-right: .8em;
+            &:hover {
+                svg path {
+                    fill: rgb(192, 4, 4);
+                }
+            }
+          
+            
+            svg {
+                width: 1.2rem;
+                height: 1.2rem;
+                path {
+                    fill: black;
+                }
+            }
+        }
+
+    }
+
+
+}
+
+
+

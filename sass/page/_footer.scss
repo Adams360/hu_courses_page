@@ -1,0 +1,100 @@
+.footer {
+    background-color: $color-blue-dark;
+    color: $color-light;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+@media #{$mobile}, #{$tablet} {
+        flex-direction: column;
+        padding: 1em 0;
+        text-align: center;
+        & > * {
+            padding: 1rem;
+        }
+    }
+
+    &__logo {
+        img {
+            max-width: 13rem;
+            width: 100%;
+            height: auto;
+        }
+    }
+    &__center {
+
+    @media #{$mobile}, #{$tablet} {
+            order: 1;
+        }
+  
+        .list {
+            display: flex;
+            justify-content: center;
+            padding: 1em 0;
+
+            &--top {
+                li {
+                    transition: transform .2s ease-out;
+                    &:hover {
+                        transform: translateY(-5px);
+                            svg {
+                                path {
+                                    color: $color-light;
+                                }
+                            }
+                     
+                    }
+
+                    svg {
+                        path {
+                            color: currentColor;
+                        }
+                    }
+                }
+            }
+            li {
+                padding: 0 1em;
+                display: inline-block;
+            
+                a {
+                    color: $color-cyan;
+                    svg {
+                        width: 2rem;
+                        height: 2rem;
+                    }
+                }
+            }
+
+            &--bottom {
+              
+                li {
+                    position: relative;
+                    a {
+                        color: $color-light;
+                        text-decoration: underline;
+                        transition: color .4 ease-in-out;
+                    
+                    }
+                    &:first-child {
+                            &::after {
+                                content: "";
+                                height: 2em;
+                                width: 2px;
+                                background-color: $color-light;
+                                display: inline-block;
+                                position: absolute;
+                                right: -1px;
+                            }
+                        }
+                }
+            }
+        }
+    }
+    &__menu {
+            ul {
+                li {
+                    margin: .8em 0;
+                }
+            }
+    }
+}

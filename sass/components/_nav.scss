@@ -1,0 +1,118 @@
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+
+    // Top Nav Styles Start
+    .top-nav {
+        background-color: $color-blue-dark;
+        display: flex;
+        justify-content: space-between;
+        padding: 1em 4em;
+
+        ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            a {
+                color: $color-light;
+                transition: color .3s ease-out;
+                text-decoration: none;
+                &:hover {
+                    color: $color-cyan;
+                }
+            }
+        }
+
+        &__left {
+            font-size: .8rem;
+            li { &:not(:first-child) { margin: 0 1em;} }
+            span {
+                margin: 0 .5em;
+            }
+            @media #{$mobile} {
+                display: none !important;
+            }
+        }
+
+        &__right {
+            li {  margin: 0 .5em;} 
+            @media #{$mobile}, #{$tablet} {
+                margin-left: auto;
+                font-size: 1.5em;
+            }
+        }
+    }
+    // Top Nav Styles End
+    .main-nav {
+        background-color: rgba($color-light, .9);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em 4em;
+
+
+        &__logo {
+            img {
+                max-width: 10em;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        &__menu {
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            transition: transform .2s ease-in-out;
+
+            &.is-active {
+                transform: translateX(0);
+            }
+
+            @media #{$mobile}, #{$tablet} {
+                position: fixed;
+                right: 0;
+                top: 96px;
+                padding: 4% 0;
+                transform: translateX(100%);
+                flex-direction: column;
+                justify-content: space-evenly;
+                width: 50%;
+                height: 50%;
+                min-height: 10em;
+                background-color: $color-light;
+                border-left: 3px solid $color-blue-dark;
+                border-bottom: 3px solid $color-blue-dark;
+            }
+        }
+
+        &__item {
+            &:not(:last-child) {
+                margin: 0 2em;
+            }
+        }
+
+        &__link {
+            text-decoration: none;
+            font-size: 1.4rem;
+            color: $color-blue-dark;           
+        }
+      
+    }
+
+
+    .hamburger {
+        z-index: 1000;
+        display: block;
+        transform: scale(.7);
+        @media #{$desktop} {
+            display: none;
+        }
+    }
+ 
+
+}
+

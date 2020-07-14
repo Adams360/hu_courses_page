@@ -1,0 +1,28 @@
+.partners {
+    background-color: $color-blue-dark;
+    text-align: center;
+    min-height: var(--partners-height);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__container {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 2em;
+        justify-content: space-around;
+    }
+
+    img {
+        width: 100%;
+        max-width: 9em;
+        margin: 1rem;
+
+        @media #{$mobile} {
+            max-width: 7em;
+        }
+    }
+ 
+}
