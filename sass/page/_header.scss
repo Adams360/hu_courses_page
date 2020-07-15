@@ -17,6 +17,7 @@
 
     @media #{$tablet} {
     height: calc(85vh - var(--partners-height));
+    padding-top: 20%;
 
         background-image: 
         linear-gradient(to top, rgba($color-dark, .8), rgba($color-dark, .2)),

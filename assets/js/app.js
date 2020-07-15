@@ -71,7 +71,6 @@ function setupCourses() {
 
       const courseItemHeight = courseItem.scrollHeight + 30 + 'px';
       document.querySelector('.courses-menu').style.height = courseItemHeight;
-      console.log(courseItem.scrollHeight);
 
 
     });

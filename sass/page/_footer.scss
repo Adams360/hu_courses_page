@@ -4,6 +4,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 3em;
 
 @media #{$mobile}, #{$tablet} {
         flex-direction: column;
@@ -16,7 +17,7 @@
 
     &__logo {
         img {
-            max-width: 13rem;
+            max-width: 8rem;
             width: 100%;
             height: auto;
         }
@@ -59,8 +60,8 @@
                 a {
                     color: $color-cyan;
                     svg {
-                        width: 2rem;
-                        height: 2rem;
+                        width: 1.5em;
+                        height: 1.5em;
                     }
                 }
             }
@@ -79,10 +80,11 @@
                             &::after {
                                 content: "";
                                 height: 2em;
-                                width: 2px;
+                                width: 1px;
                                 background-color: $color-light;
                                 display: inline-block;
                                 position: absolute;
+                                top: -2px;
                                 right: -1px;
                             }
                         }
