@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
-        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&family=Roboto:wght@400;700;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="./assets/css/styles.css">
@@ -77,7 +77,7 @@
     </nav>
 
 <header class="header">
-    <div class="container">
+    <div class="header__content">
         <h1 class="header__heading">The Key to Scuesss</h1>
         <p class="header__para">Is to start before you are ready</p>
     </div>
@@ -87,31 +87,46 @@
 
     <!-- Partners Section START -->
     <section class="partners">
-        <div class="container partners__container">
-            <img src="./assets/img/partners/partners-1.svg" alt="">
-            <img src="./assets/img/partners/partners-2.svg" alt="">
-            <img src="./assets/img/partners/partners-3.svg" alt="">
-            <img src="./assets/img/partners/partners-4.svg" alt="">
-            <img src="./assets/img/partners/partners-5.svg" alt="">
-            <img src="./assets/img/partners/partners-6.svg" alt="">
+        <div class="container partners__inner">
+            <div class="partners__logo">
+                <img src="./assets/img/partners/partners-1.svg" alt="">
+            </div>
+            <div class="partners__logo">
+                <img src="./assets/img/partners/partners-2.svg" alt="">
+            </div>
+            <div class="partners__logo">
+                <img src="./assets/img/partners/partners-3.svg" alt="">
+            </div>
+            <div class="partners__logo">
+                <img src="./assets/img/partners/partners-4.svg" alt="">
+            </div>
+            <div class="partners__logo">
+                <img src="./assets/img/partners/partners-5.svg" alt="">
+            </div>
+            <div class="partners__logo">
+                <img src="./assets/img/partners/partners-6.svg" alt="">
+            </div>
         </div>
     </section>
 
 
     <section class="about">
         <div class="container">
-            <p class="about__text">HackerU Pro offers a wide range of courses to technology professionals around the world. Our courses are known for their quality, up-to-date content & uncompromising professional training.</p>
+            <p class="about__text">HackerU Pro offers a wide range of courses to technology professionals<br>around the world. Our courses are known for their quality, up-to-date content & uncompromising professional training.</p>
         </div>
     </section>
     <!-- Partners Section END -->
 
+    
     <section class="experties">
+              <!-- Courses Coutner -->
+              <span class="counter">
+                0
+            </span>
+        <div class="container container--wide">
             <div class="experties__layout">
 
-                <!-- Courses Coutner -->
-                <span class="counter">
-                    0
-                </span>
+          
 
                 <!-- Course Nav -->
                 <nav class="courses-nav">
@@ -244,8 +259,14 @@
                                             d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
                                     </svg>
                                 </span>
+                                
                                 <p class="courses-menu__text">Intro to Python</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CB100i</p>
+                                <span class="courses-menu__arrow">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+                                </span>
                             </label>
                         </div>
                         <!-- Box /-->
@@ -263,6 +284,11 @@
                                 </span>
                                 <p class="courses-menu__text">Cisco CCNA</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR100i</p>
+                                <span class="courses-menu__arrow">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+                                </span>
                             </label>
                         </div>
                         <!-- Box /-->
@@ -281,7 +307,12 @@
                                 </span>
                                 <p class="courses-menu__text">Advanced Infrastructure Attacks</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR109</p>
-                            </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                            </label>
                         </div>
                         <!-- Box /-->
                         <!-- Box 4 -->
@@ -297,6 +328,11 @@
                                 </span>
                                 <p class="courses-menu__text">Microsoft Azure Administrator</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR101i</p>
+                                <span class="courses-menu__arrow">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+                                </span>
                             </label>
                         </div>
                         <!-- Box /-->
@@ -316,6 +352,11 @@
                                 </span>
                                 <p class="courses-menu__text">Linux Administration</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR101i</p>
+                                <span class="courses-menu__arrow">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+                                </span>
                             </label>
                         </div>
                         <!-- Box /-->
@@ -332,7 +373,12 @@
                                 </span>
                                 <p class="courses-menu__text">IoT Exploitation</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR114</p>
-                            </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                            </label>
                         </div>
                         <!-- Box /-->
 
@@ -349,7 +395,12 @@
                                 </span>
                                 <p class="courses-menu__text">Cyber Awareness CB101</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR115</p>
-                            </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                            </label>
                         </div>
                         <!-- Box /-->
 
@@ -366,6 +417,11 @@
                                 </span>
                                 <p class="courses-menu__text">Web Application Development</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR103i</p>
+                                <span class="courses-menu__arrow">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+                                </span>
                             </label>
                         </div>
                         <!-- Box /-->
@@ -386,7 +442,12 @@
                                 </span>
                                 <p class="courses-menu__text">Reverse Engineering</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR113</p>
-                            </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                            </label>
                         </div>
                         <!-- Box /-->
 
@@ -403,7 +464,12 @@
                                 </span>
                                 <p class="courses-menu__text">Python Programing for Security & Hacking</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR106</p>
-                            </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                            </label>
                         </div>
                         <!-- Box /-->
                         <!-- Box 11 -->
@@ -419,7 +485,12 @@
                                 </span>
                                 <p class="courses-menu__text">Microsoft Security </p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR106</p>
-                            </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                            </label>
                         </div>
                         <!-- Box /-->
                         <!-- Box 12 -->
@@ -435,7 +506,12 @@
                                 </span>
                                 <p class="courses-menu__text">Microsoft Security</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR106</p>
-                            </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                            </label>
                         </div>
                         <!-- Box /-->
                     </div>
@@ -455,7 +531,12 @@
                                 </span>
                                 <p class="courses-menu__text">Web Application Penetration Testing</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR110</p>
-                            </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                            </label>
                         </div>
                         <!-- Box /-->
                         <!-- Box 14 -->
@@ -471,7 +552,12 @@
                                 </span>
                                 <p class="courses-menu__text">Linux Security</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CB104</p>
-                            </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                            </label>
                         </div>
                         <!-- Box /-->
                         <!-- Box 14 -->
@@ -487,6 +573,11 @@
                                 </span>
                                 <p class="courses-menu__text">SIEM & SOC</p>
                                 <p class="courses-menu__text courses-menu__text--sub"> CR107</p>
+                                <span class="courses-menu__arrow">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+                                </span>
                             </label>
                         </div>
                         <!-- Box /-->
@@ -504,7 +595,12 @@
                                 </span>
                                 <p class="courses-menu__text">Cross-Platform Elevation of Privileges</p>
                                 <p class="courses-menu__text courses-menu__text--sub">CR108</p>
-                            </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                            </label>
                         </div>
                         <!-- Box /-->
                     </div>
@@ -523,7 +619,12 @@
                                         </span>
                                         <p class="courses-menu__text">Offensive Security Ethical Hacking</p>
                                         <p class="courses-menu__text courses-menu__text--sub">CB109</p>
-                                    </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                                    </label>
                                 </div>
                                 <!-- Box /-->
                     </div>
@@ -541,7 +642,12 @@
                                         </span>
                                         <p class="courses-menu__text">Digital Forensics & Incident Response</p>
                                         <p class="courses-menu__text courses-menu__text--sub">CB110</p>
-                                    </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                                    </label>
                                 </div>
                                 <!-- Box /-->
                     </div>
@@ -559,7 +665,12 @@
                                         </span>
                                         <p class="courses-menu__text">Cyber Security for IT & SOC</p>
                                         <p class="courses-menu__text courses-menu__text--sub">CB111</p>
-                                    </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                                    </label>
                                 </div>
                                 <!-- Box /-->
                     </div>
@@ -577,7 +688,12 @@
                                         </span>
                                         <p class="courses-menu__text">Android - Mobile Security</p>
                                         <p class="courses-menu__text courses-menu__text--sub">CR111</p>
-                                    </label>
+
+<span class="courses-menu__arrow">
+    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+</svg>
+</span>                                    </label>
                                 </div>
                                 <!-- Box /-->
                     </div>
@@ -585,11 +701,16 @@
                 </div>
                 <!-- Course Menu -->
             </div>
+        </div>
     </section>
 
 
  
+
 <section class="quote">
+    <div class="container">
+        <div class="quote__inner">
+
     <!-- HEADING -->
     <div class="quote__heading">
         <h2 class="heading">Reuqest a Quote</h2>
@@ -597,7 +718,9 @@
 <!-- CONTENT -->
     <div class="quote__content">
         <p class="lead">
-            Want to request a quote for your selected courses? Leave us your details and our team will contact you within 24h.
+            Want to request a quote for your selected courses?
+            <br>
+            Leave us your details and our team will contact you within 24h.
         </p>
     </div>
 
@@ -633,7 +756,9 @@
         <ul class="quote__selection__list" id="selected___courses">
         </ul>
     </div>
+</div>
 
+</div>
 </section>
 
 
@@ -643,7 +768,8 @@
 
 
 <section class="contact">
-    
+    <div class="container">
+
     <div class="box">
         <div class="box__top">
             <div class="box__item">
@@ -665,10 +791,13 @@
         </ul>
     </div>
 
+</div>
 
 </section>
 
 <footer class="footer">
+    <div class="container container--wide footer__inner">
+
     <div class="footer__logo">
         <img src="./assets/img/logo-white.svg" alt="">
     </div>
@@ -702,6 +831,8 @@
             <li><a href="#">About Us</a></li>
         </ul>
     </div>
+</div>
+
 </footer>
 
 

@@ -33,6 +33,8 @@
         transition: all .2s ease-in-out;
         border: 2px solid;
         border-color: transparent;
+        -webkit-appearance: none;
+        appearance: none;
         &:hover {
             color: $color-orange;
            background-color: transparent;

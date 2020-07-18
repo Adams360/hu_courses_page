@@ -1,13 +1,13 @@
 .experties {
     background-color: $color-gray;
     position: relative;
-    
+    padding: 4em 0;
     &__layout{
         @media #{$desktop} {
-            max-width: 85%;
-            margin: 0 auto;
             display: flex;
             align-items: flex-start;
+            min-height: 70rem;
+            overflow-y: auto;
 
             .courses-menu {
                 flex:1;

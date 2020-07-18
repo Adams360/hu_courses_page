@@ -1,4 +1,5 @@
 .header {
+    position: relative;
     height: calc(100vh - var(--partners-height));
     display: flex;
     justify-content: center;
@@ -13,21 +14,28 @@
     background-repeat: no-repeat;
 
     color: $color-light;
-    padding: 2em;
 
     @media #{$tablet} {
     height: calc(85vh - var(--partners-height));
-    padding-top: 20%;
-
         background-image: 
         linear-gradient(to top, rgba($color-dark, .8), rgba($color-dark, .2)),
         url(../../assets/img/header/header-bg-mobile.png);
     }
 
-    @media #{$mobile} {
 
-        height: calc(83vh - var(--partners-height) );
-        padding: 7em 4em 0;
+
+    &__content {
+        padding: 2em;
+        height: calc(100% - 150px + 2em);
+
+        position: absolute;
+        bottom: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
     }
 
     &__heading {
@@ -41,5 +49,12 @@
         font-weight: 400;
         text-transform: capitalize;
         margin-top: .2em;
+
+        @media #{$mobile} {
+            font-size: 2rem;
+            max-width: 9em;
+            width: 100%;
+            margin: 7px auto;
+        }
     }
 }

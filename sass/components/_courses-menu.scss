@@ -12,8 +12,8 @@ position: relative;
         position: absolute;
         @media #{$desktop} {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(15em, 1fr));
-            grid-auto-rows: 15em;
+            grid-template-columns: repeat(auto-fill, minmax(13em, 1fr));
+            grid-auto-rows: 13em;
             gap: 1em;
         }
   
@@ -35,6 +35,11 @@ position: relative;
         position: relative;
         background-color: $color-light;
         text-align: center;
+        transition: all .3s ease-in-out;
+        overflow: hidden;
+      
+
+
         @media #{$mobile}, #{$tablet} {
             margin-bottom: 1em;
             text-align: left;
@@ -65,6 +70,24 @@ position: relative;
             flex-direction: row;
         } 
 
+
+        &:hover {
+
+         .courses-menu__text,
+         .courses-menu__sub-text {
+             color: $color-orange;
+         }
+          .courses-menu__arrow {
+            opacity: 1;
+          }
+        }
+
+
+
+     
+
+      
+
         &::after {
             content: "";
             background-color: currentColor;
@@ -87,7 +110,10 @@ position: relative;
     &__input {
         display: none;
         &:checked + .courses-menu__label {
-            border-color:  $color-orange;
+            
+            @media #{$tablet}, #{$desktop} {
+                border-color:  $color-orange;
+            }
             color: $color-orange;
 
             svg {
@@ -97,13 +123,13 @@ position: relative;
     }
     &__check {
         border: 2px solid currentColor;
-        border-radius: 5px;
+        border-radius: 3px;
         position: absolute;
         bottom: .8em;
         left: 50%;
         transform: translateX(-50%);    
-        width: 1rem;
-        height: 1rem;
+        width: 1.3rem;
+        height: 1.3rem;
 
         @media #{$mobile}, #{$tablet} {
             width: 1rem;
@@ -134,17 +160,36 @@ position: relative;
         }
     }
 
+
+    &__arrow {
+        position: absolute;
+        right: .6em;
+        top: 50%;
+        transform: translateY(-50%);
+        opacity: 0;
+        transition: all .4s ease-out;
+        color: $color-orange;
+        svg {
+            
+            width: 1.1rem;
+            height: 1.1rem;
+        }
+
+    }
+
     &__text {
         color: $color-blue-dark;
         font-weight: 700;
         font-size: 1.2em;
         font-family: $font-secondary;
+        transition: color .2s ease-in-out;
         @media #{$mobile}, #{$tablet} {
             text-decoration: underline;
         }
         &--sub {
             font-weight: 400;
             margin-left: .6em;
+            transition: color .2s ease-in-out;
             @media #{$desktop} {
                 margin-top: .3em;
                 margin-left: 0;

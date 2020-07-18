@@ -1,11 +1,11 @@
 .contact {
+    position: relative;
     background: 
-    linear-gradient(to top, rgba($color-light, .8), rgba($color-light, .2)),
+    linear-gradient(rgba($color-light, .7) 100%, transparent),
     url(../../assets/img/contact/bg-contact.png);
     background-size: cover;
-    background-position: center;
+    background-position: 0 20%;
     background-repeat: no-repeat;
-
     text-align: center;
     padding: 6em;
     
@@ -13,13 +13,12 @@
         padding: 2.5em;
     }
 
-
-
     .box {
         max-width: 50rem;
         margin: 0 auto;
         text-align: center;
         color: $color-blue-dark;
+        
         &__top {
             display: flex;
             justify-content: space-between;
@@ -50,7 +49,7 @@
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                border: 2px solid currentColor;
+                border: 1.5px solid currentColor;
                 border-right: 0;
                 border-left: 0;
                 padding: 1.5em 0;
@@ -62,7 +61,7 @@
                     font-size: 1.2rem;
                     margin-right: 1em;
                     padding-right: 1rem;
-                    font-weight: 700;
+                    font-weight: 500;
                     @media #{$mobile} {
                        margin-bottom: .8em;
                     }

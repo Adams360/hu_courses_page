@@ -1,21 +1,28 @@
 .quote {
-    padding: 4em 8em;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "heading selection"
-                          "content selection"
-                          "form selection";
-    @media #{$mobile}, #{$tablet} {
-        text-align: center;
+    background-color: $color-light;
+    padding: 5em;
 
+    @media #{$mobile} {
+        padding: 2em;
+    }
+    &__inner {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "heading selection"
+                              "content selection"
+                              "form selection";
+        @media #{$mobile}, #{$tablet} {
+            text-align: center;
     
-
-        padding: 3em 4em;
-    grid-template-columns: 1fr;
-    grid-template-areas: "heading"
-                         "selection"
-                         "content"
-                         "form";
+        
+    
+        padding: 3em 2em;
+        grid-template-columns: 1fr;
+        grid-template-areas: "heading"
+                             "selection"
+                             "content"
+                             "form";
+        }
     }
     
 

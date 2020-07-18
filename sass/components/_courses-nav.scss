@@ -48,13 +48,13 @@
     
 
     @media #{$desktop} {
-        border-bottom: 1px solid $color-blue-dark;
+        border-bottom: 1.4px solid $color-blue-dark;
     }
     
     @media #{$mobile}, #{$tablet} {
         flex-direction: column-reverse;
         justify-content: center;
-        border-right: 1px solid $color-blue-dark;
+        border-right: 1.4px solid $color-blue-dark;
         padding: 1.5em;
         margin: 1.5em 0;
 
@@ -80,7 +80,10 @@
 
     &--active {
         color: $color-cyan;
-        border-color: $color-cyan;
+        @media #{$tablet}, #{$desktop} {
+
+            border-color: $color-cyan;
+        }
 
         .nav-btn__text {
             font-weight: 700;
