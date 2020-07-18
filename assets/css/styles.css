@@ -10,6 +10,7 @@
   box-sizing: inherit; }
 
 html {
+  scroll-behavior: smooth;
   font-size: 16px; }
   @media (min-width: 576px) and (max-width: 992px) {
     html {
@@ -1061,6 +1062,8 @@ ul {
       .courses-menu__box {
         margin-bottom: 1em;
         text-align: left; } }
+  .courses-menu__link {
+    text-decoration: none; }
   .courses-menu__label {
     display: flex;
     justify-content: center;
@@ -1369,12 +1372,17 @@ ul {
   .quote__selection {
     grid-area: selection;
     justify-self: center;
-    margin-top: 4em; }
+    margin-top: 4em;
+    padding: 2em 6em; }
     .quote__selection .text {
       text-transform: uppercase;
       color: #F05D43;
       font-weight: 700;
       font-size: 1.2rem; }
+      .quote__selection .text--empty {
+        color: #001741;
+        font-weight: 400;
+        margin: 1em 0; }
     .quote__selection__list {
       margin-top: 1em; }
     .quote__selection .selected___course___item {
