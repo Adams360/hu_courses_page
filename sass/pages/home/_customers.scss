@@ -1,0 +1,40 @@
+.customers {
+    padding: 6em 0;
+    text-align: center;
+
+    @media #{$mobile} {
+        padding: 4em 2em 0;
+    }
+
+    h2 {
+        @include divider($color-orange, center);
+    }
+
+    &__logos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        max-width: 100em;
+        width: 100%;
+        margin: 2em auto;
+    }
+    &__logo {
+        flex: 0 0 16em;
+        padding:  .5em;
+        transition: transform .2s ease-out;
+
+        @media #{$mobile} {
+            flex: 0 0 9em;
+        }
+
+        img {
+            max-width: 12em;
+            width: 100%;
+        }
+        &:hover {
+            transform: translateY(-10px);
+        }
+    }
+
+}

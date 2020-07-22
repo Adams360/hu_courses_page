@@ -1,0 +1,31 @@
+// GLOBAL STYLES
+@import "base/breakpoints";
+@import "base/vars";
+@import "base/mixins";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+@import "base/layout";
+
+// Global Components
+@import "../node_modules/hamburgers/_sass/hamburgers/hamburgers";
+@import "components/nav";
+@import "components/btn";
+@import "components/counter";
+@import "components/countries-strip";
+
+
+// Global Sections
+@import "global/partners";
+// PAGE STYLES
+@import "pages/courses/form";
+@import "pages/courses/courses-nav";
+@import "pages/courses/courses-menu";
+@import "pages/courses/header";
+@import "pages/courses/about";
+@import "pages/courses/experties";
+
+@import "pages/courses/quote";
+@import "global/contact-strip";
+@import "global/footer";
+

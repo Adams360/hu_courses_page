@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "watch": "node-sass ./sass/main.scss ./assets/css/styles.css -w"
+    "watch:home": "node-sass ./sass/home.scss ./assets/css/home.css -w",
+    "watch:syllabus": "node-sass ./sass/syllabus.scss ./assets/css/syllabus.css -w",
+    "watch:courses": "node-sass ./sass/courses.scss ./assets/css/courses.css -w"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.5.0",
     "hamburgers": "^1.1.3"
   }
 }

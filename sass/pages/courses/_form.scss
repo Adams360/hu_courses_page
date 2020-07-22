@@ -1,0 +1,45 @@
+.form {
+    &__group {
+        margin: 1em 0;
+    }
+    &__control {
+        font-family: inherit;
+        font-size: 1.2rem;
+        color: currentColor;
+        width: 100%;
+        padding: .5em 1.1em;
+        border: 1px solid;
+        border-color: rgba($color-gray-dark, .8);
+        border-radius: 0;
+        
+        &.error {
+            border-color: #FE4164;
+            color: #FE4164;
+        }
+
+    }
+    &__btn {
+        background-color: $color-orange;
+        color: $color-light;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: inherit;
+        font-size: 1.4rem;
+        display: block;
+        width: 100%;
+        cursor: pointer;
+        appearance: none;
+        transition: all .2s ease-in-out;
+        border: 2px solid;
+        border-color: transparent;
+        -webkit-appearance: none;
+        appearance: none;
+        padding: .3em;
+        &:hover {
+            color: $color-orange;
+           background-color: transparent;
+           border-color: currentColor;
+        }
+    
+    }
+}

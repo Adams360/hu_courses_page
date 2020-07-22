@@ -1,0 +1,20 @@
+.text-strip {
+    background-color: $color-cyan;
+    text-align: center;
+    padding: 4em;
+
+    p {
+        max-width: 28em;
+        margin: 0 auto;
+    }
+    
+    &--wide {
+        padding: 6em 4em 4em;
+        @media #{$mobile} {
+            padding: 3em;
+        }
+    }
+    
+}
+
+

@@ -1,4 +1,5 @@
 .counter {
+    display: inline-block;
     font-family: $font-secondary;
     background-color: $color-cyan;
     position: -webkit-sticky; /* Safari */
@@ -11,6 +12,26 @@
     font-size: 1.5rem;
     font-weight: 700;
     z-index: 400;
+    transform: translateY(1.5em) translateX(8.5em);
+    width: 12em;
+    transition: transform .4s ease-in-out;
+    white-space: nowrap;
+
+    &__text {
+        opacity: 0;
+        transition: opacity .2s .3s ease-out;
+    }
+
+
+    @media #{$desktop}, #{$desktop} {
+        &:hover {
+            transform: translateY(1.5em) translateX(0);
+            .counter__text {
+                opacity: 1;
+            }
+        
+        }
+    }
 
     @media #{$mobile} {
         font-size: 1.2rem;

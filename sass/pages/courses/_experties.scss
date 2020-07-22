@@ -1,0 +1,30 @@
+.experties {
+    position: relative;
+    background-color: $color-gray;
+    padding-bottom: 5em;
+
+    &__container {
+        max-width: 1240px;
+        margin: 0 auto;
+        @media (min-width: 1200px) {
+            max-width: 1700px;
+            margin: -76px auto;
+        }
+
+    }
+    &__layout{
+        @media #{$desktop} {
+            display: flex;
+            align-items: flex-start;
+            min-height: 70rem;
+            overflow-y: auto;
+
+            .courses-menu {
+                flex:1;
+            }
+        }
+    
+     
+
+    }
+}

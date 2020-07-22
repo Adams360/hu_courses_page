@@ -1,0 +1,64 @@
+.about {
+    background-color: $color-gray;
+    
+    &__top {
+        display: flex;
+        align-items: center;
+        padding: 2em 0;
+        position: relative;
+        z-index: 1;
+
+      @media #{$mobile}, #{$tablet} {
+            flex-direction: column;
+        }
+    }
+
+
+
+
+    &__img {
+        max-width: 50em;
+        width: 100%;
+        margin: -4em 0;
+        @media #{$desktop} {
+            max-width: 25em;
+            margin-top: -12em;
+        }
+      @media #{$mobile}, #{$tablet} {
+            display: none;
+        }
+        &--mobile {
+            display: none;
+            width: 85%;
+            height: 100%;
+            max-height: 11em;
+            object-fit: cover;
+            position: absolute;
+            top: -50px;
+            left: 0;
+          @media #{$mobile}, #{$tablet} {
+                display: block;
+            }
+        }
+    }
+    &__content {
+        padding: 0 16% 0 6%;
+        z-index: 2;
+
+      @media #{$mobile} {
+        padding: 0 2.5em 1.5em;
+        }
+    }
+
+
+    .heading {
+        @include divider($color-orange, left);
+
+    }
+
+    .para--about {
+      @media #{$mobile}, #{$tablet} {
+            padding-top: 10%;
+        }
+    }
+}

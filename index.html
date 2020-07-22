@@ -7,14 +7,14 @@
     <link
         href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;700&family=Roboto:wght@400;700;900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
     <script src="https://kit.fontawesome.com/0d6658ace9.js" crossorigin="anonymous"></script>
-    <title>Hackeru PRO | Courses</title>
+    <title>Hackeru PRO | Home</title>
 </head>
 
 <body>
-
+    <!-- Nav Component START -->
     <nav class="nav">
         <!-- Top Nav -->
         <div class="top-nav">
@@ -75,1316 +75,722 @@
         </div>
 
     </nav>
+    <!-- Nav Component END -->
 
-    <header class="header">
-        <div class="header__content">
-            <h1 class="header__heading">The Key to Scuesss</h1>
-            <p class="header__para">Is to start before you are ready</p>
+    <!-- Header Section START -->
+    <header class="header" id="home">
+
+        <span class="sticker">
+            <p> All Our Courses Now Also <strong>LIVE</strong> </p>
+        </span>
+
+        <div class="swiper-container header-slider">
+            <div class="swiper-wrapper">
+                <!-- SLIDE #1 -->
+                <div class="swiper-slide header-slider__slide">
+                    <div class="header-slider__img">
+                        <img class="img-desktop" src="./assets/img/home-page/header1-bg--desktop.png" alt="">
+                        <img class="img-mobile" src="./assets/img/home-page/header1-bg--mobile.png" alt="">
+                    </div>
+
+                    <div class="header-slider__content">
+                        <h2 class="big-heading">
+                            Join our Up-to-Date Technology Courses
+                            <span class="sub-heading"> To empower your business </span>
+                        </h2>
+
+                    </div>
+                </div>
+                <!-- SLIDE #2 -->
+                <div class="swiper-slide header-slider__slide">
+                    <div class="header-slider__img">
+                        <img class="img-desktop" src="./assets/img/home-page/header2-bg--desktop.png" alt="">
+                        <img class="img-mobile" src="./assets/img/home-page/header2-bg--mobile.png" alt="">
+                    </div>
+
+                    <div class="header-slider__content">
+                        <h2 class="big-heading">
+                            Top Industry Leading Experts With Vast Hands-On Experience
+                            <span class="sub-heading"> To Update Your Professional Skills </span>
+                        </h2>
+
+                    </div>
+                </div>
+                <div class="swiper-slide header-slider__slide">
+                    <div class="header-slider__img">
+                        <img class="img-desktop" src="./assets/img/home-page/header3-bg--desktop.png" alt="">
+                        <img class="img-mobile" src="./assets/img/home-page/header3-bg--mobile.png" alt="">
+                    </div>
+
+                    <div class="header-slider__content">
+                        <h2 class="big-heading">
+                            <span class="sub-heading"> Invest In Your Human Capital To Increase
+                                Employee's Satisfaction And Performance With
+                            </span>
+                            Tailor-Made Courses To Meet Your Company's Specific Needs
+                        </h2>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- Slides's Pagination -->
+            <div class="swiper-pagination" id="header-pagination"></div>
         </div>
     </header>
-
+    <!-- Header Section END -->
 
 
     <!-- Partners Section START -->
     <section class="partners">
-        <div class="container partners__inner">
-            <div class="partners__logo">
-                <img src="./assets/img/partners/partners-1.svg" alt="">
-            </div>
-            <div class="partners__logo">
-                <img src="./assets/img/partners/partners-2.svg" alt="">
-            </div>
-            <div class="partners__logo">
-                <img src="./assets/img/partners/partners-3.svg" alt="">
-            </div>
-            <div class="partners__logo">
-                <img src="./assets/img/partners/partners-4.svg" alt="">
-            </div>
-            <div class="partners__logo">
-                <img src="./assets/img/partners/partners-5.svg" alt="">
-            </div>
-            <div class="partners__logo">
-                <img src="./assets/img/partners/partners-6.svg" alt="">
-            </div>
+        <div class="partners__inner">
+
+        <div class="partners__logo">
+            <img src="./assets/img/partners/partners-1.svg" alt="">
         </div>
-    </section>
-
-
-    <section class="about">
-        <div class="container">
-            <p class="about__text">HackerU Pro offers a wide range of courses to technology professionals<br>around the
-                world. Our courses are known for their quality, up-to-date content & uncompromising professional
-                training.</p>
+        <div class="partners__logo">
+            <img src="./assets/img/partners/partners-2.svg" alt="">
         </div>
-    </section>
-    <!-- Partners Section END -->
+        <div class="partners__logo">
+            <img src="./assets/img/partners/partners-3.svg" alt="">
+        </div>
+        <div class="partners__logo">
+            <img src="./assets/img/partners/partners-4.svg" alt="">
+        </div>
+        <div class="partners__logo">
+            <img src="./assets/img/partners/partners-5.svg" alt="">
+        </div>
+        <div class="partners__logo">
+            <img src="./assets/img/partners/partners-6.svg" alt="">
+        </div>
+    </div>
+
+</section>
+<!-- Partners Section END -->
 
 
+    <!-- Experties Section START -->
     <section class="experties">
-        <!-- Courses Coutner -->
-        <span class="counter">
-            0
-        </span>
-        <div class="container container--wide">
-            <div class="experties__layout">
+
+        <h2 class="heading"> Areas of Experties </h2>
+
+        <div class="icons">
+
+            <a href="#" class="icons__box">
+
+                <svg class="icons__icon" xmlns="http://www.w3.org/2000/svg" width="63.956" height="68.754"
+                    viewBox="0 0 63.956 68.754">
+                    <g transform="translate(-3294.214 -776.073)">
+                        <path
+                            d="M111.608-85.908h-6.632a1.7,1.7,0,0,0-1.7,1.695h0v2.688a17.107,17.107,0,0,0-3.638,1.492l-1.888-1.89a1.7,1.7,0,0,0-2.4,0h0L91.035-77.6a1.7,1.7,0,0,0,0,2.4h0l1.874,1.874a17.132,17.132,0,0,0-1.519,3.654H88.745a1.7,1.7,0,0,0-1.695,1.7h0v6.108a1.7,1.7,0,0,0,1.695,1.7h2.646a17.132,17.132,0,0,0,1.519,3.654l-1.874,1.873a1.7,1.7,0,0,0,0,2.4h0l4.32,4.32a1.694,1.694,0,0,0,2.4,0h0l1.888-1.89a17.179,17.179,0,0,0,3.638,1.493v2.687a1.7,1.7,0,0,0,1.7,1.7h6.108a1.7,1.7,0,0,0,1.695-1.7h0v-2.72a17.1,17.1,0,0,0,3.6-1.5l1.937,1.937a1.7,1.7,0,0,0,2.4,0h0l4.319-4.319a1.7,1.7,0,0,0,0-2.4l-1.949-1.949a17.109,17.109,0,0,0,1.476-3.579h2.763a1.7,1.7,0,0,0,1.7-1.7h0V-68.5"
+                            transform="translate(3217.991 875.541)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <path
+                            d="M118.626-66.808a12.477,12.477,0,0,1-12.477,12.477A12.477,12.477,0,0,1,93.673-66.808a12.476,12.476,0,0,1,12.476-12.476"
+                            transform="translate(3219.871 877.421)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"
+                            stroke-dasharray="0.502 6.023" />
+                        <path
+                            d="M105.567-77.233a9.844,9.844,0,0,0-9.843,9.843,9.843,9.843,0,0,0,9.843,9.843,9.842,9.842,0,0,0,9.843-9.843"
+                            transform="translate(3220.453 878.003)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <path
+                            d="M124.129-75.466v-2.719a.754.754,0,0,0-.755-.754h-1.23a7.6,7.6,0,0,0-.656-1.593l.867-.868a.754.754,0,0,0,0-1.067h0l-1.921-1.922a.757.757,0,0,0-1.068,0h0l-.86.86a7.593,7.593,0,0,0-1.6-.668v-1.211a.754.754,0,0,0-.754-.755h-2.718a.754.754,0,0,0-.755.755v1.2a7.605,7.605,0,0,0-1.619.665l-.841-.842a.755.755,0,0,0-1.067,0h0l-1.922,1.922a.755.755,0,0,0,0,1.068l.831.831a7.584,7.584,0,0,0-.677,1.627h-1.177a.754.754,0,0,0-.755.754v2.719a.754.754,0,0,0,.755.755h1.177a7.583,7.583,0,0,0,.677,1.627l-.831.831a.753.753,0,0,0,0,1.067h0l1.922,1.922a.755.755,0,0,0,1.068,0h0l.841-.841a7.6,7.6,0,0,0,1.619.664v1.2a.754.754,0,0,0,.755.755h2.718a.754.754,0,0,0,.754-.755v-1.211a7.53,7.53,0,0,0,1.6-.669l.86.86a.753.753,0,0,0,1.067,0h0l1.921-1.922a.753.753,0,0,0,0-1.066h0l-.867-.867a7.6,7.6,0,0,0,.656-1.593h1.23A.754.754,0,0,0,124.129-75.466Z"
+                            transform="translate(3223.214 875.469)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <path
+                            d="M116.568-78.2a3.145,3.145,0,0,0-3.145-3.145,3.145,3.145,0,0,0-3.145,3.145,3.146,3.146,0,0,0,3.145,3.147,3.146,3.146,0,0,0,3.145-3.147Z"
+                            transform="translate(3224.583 876.837)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <path
+                            d="M101.956-93.936a31.137,31.137,0,0,1,24.079,9.075,31.207,31.207,0,0,1,7.225,32.85,31.056,31.056,0,0,1-7.225,11.282"
+                            transform="translate(3222.221 873.244)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <circle cx="3.02" cy="3.02" r="3.02" transform="translate(3318.189 776.823)" fill="none"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <path
+                            d="M112.438-33.673a31.14,31.14,0,0,1-24.08-9.075A31.209,31.209,0,0,1,81.133-75.6a31.07,31.07,0,0,1,7.224-11.282"
+                            transform="translate(3215.768 875.265)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <circle cx="3.02" cy="3.02" r="3.02" transform="translate(3328.154 838.037)" fill="none"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                    </g>
+                </svg>
 
 
+                <span class="icons__text">Agile & Devops</span>
+            </a href="#">
 
-                <!-- Course Nav -->
-                <nav class="courses-nav">
+            <a href="#" class="icons__box">
+                <svg class="icons__icon" xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
+                    <defs>
+                        <clipPath id="a">
+                            <path data-name="Rectangle 163" transform="translate(3263 1233)" fill="currentColor"
+                                d="M0 0h62v62H0z" />
+                        </clipPath>
+                    </defs>
+                    <g data-name="Mask Group 11" transform="translate(-3263 -1233)" clip-path="url(#a)">
+                        <g data-name="Group 187" fill="none" stroke="currentColor" stroke-linecap="round"
+                            stroke-linejoin="round" stroke-width="1.5">
+                            <path data-name="Line 58" d="M3292.179 1276.286h3.068" />
+                            <path data-name="Line 59" d="M3288.548 1285.578l.558-6.028" />
+                            <path data-name="Line 60" d="M3298.319 1279.55l.558 6.028" />
+                            <path data-name="Line 61" d="M3283.25 1285.579h20.924" />
+                            <path data-name="Line 62" d="M3316.809 1250.786l-4.564-4.564" />
+                            <path data-name="Line 63" d="M3312.179 1250.83l-4.278-4.278" />
+                            <path data-name="Line 64" stroke-dasharray="0.53 2.65"
+                                d="M3316.457 1255.108l-4.278-4.278" />
+                            <path data-name="Path 30"
+                                d="M3285.511 1252.23a5.094 5.094 0 10-5.094 5.095 5.094 5.094 0 005.094-5.095z" />
+                            <g data-name="Group 85" transform="translate(3267 1242)">
+                                <rect data-name="Rectangle 30" width="53.425" height="37.339" rx="7.265" />
+                                <path data-name="Line 65" d="M0 31.104h53.425" />
+                            </g>
+                            <g data-name="Group 86">
+                                <path data-name="Rectangle 31" d="M3295.788 1261.528h17.174v11.333h-17.174z" />
+                                <path data-name="Rectangle 32" d="M3274.463 1261.528h17.174v11.333h-17.174z" />
+                            </g>
+                            <path data-name="Line 66" d="M3290.717 1248.866h13.238" />
+                            <path data-name="Line 67" d="M3290.717 1255.585h7.01" />
+                            <path data-name="Line 68" d="M3290.717 1252.225h13.238" />
+                        </g>
+                    </g>
+                </svg>
+                <span class="icons__text">Front-End Technologies</span>
+            </a href="#">
 
-                    <h2 class="heading">
-                        Areas of Experties
-                    </h2>
+            <a href="#" class="icons__box">
 
-                    <ul class="courses-nav__list">
-                        <li class="courses-nav__item">
-                            <button class="nav-btn nav-btn--active" data-for-course="1">
-                                <span class="nav-btn__text">
-                                    Cyber Security
-                                </span>
-                                <span class="nav-btn__icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="49.294" height="62.254"
-                                        viewBox="0 0 49.294 62.254">
-                                        <g transform="translate(-3644.025 -618.282)">
-                                            <path
-                                                d="M1379.4,1342.818s11.725-7.728,15.488-10.509c2.615-1.933,4.068-5.55,4.068-9.322v-20.966c-9.025.628-19.552-8.793-19.557-8.8h0c-.005,0-10.532,9.425-19.557,8.8v20.966c0,3.773,1.453,7.39,4.068,9.322,3.763,2.781,15.489,10.509,15.489,10.509h0"
-                                                transform="translate(2289.269 -668.23)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <path
-                                                d="M1378.484,1346.754l-2.388-1.574c-.483-.318-11.868-7.825-15.68-10.642-3.65-2.7-5.829-7.488-5.829-12.813v-25.618l4.641.324q.286.02.576.02c5.8,0,13.3-5.518,15.75-7.691l2.93-2.758,2.929,2.759c2.454,2.172,9.947,7.69,15.749,7.69h0c.193,0,.386-.007.578-.02l4.641-.324v25.618c0,5.325-2.179,10.115-5.829,12.813-3.813,2.817-15.2,10.324-15.681,10.642Z"
-                                                transform="translate(2290.188 -666.968)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <path d="M1375.285,1318.791l6.058,6.058,11.921-11.921"
-                                                transform="translate(2286.57 -671.674)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <path d="M1387.182,1312.413a10.442,10.442,0,1,0,3.646,6.429"
-                                                transform="translate(2287.491 -671.161)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                        </g>
-                                    </svg>
-                                </span>
-                            </button>
-                        </li>
-                        <li class="courses-nav__item">
-                            <button class="nav-btn" data-for-course="2">
-                                <span class="nav-btn__text">
-                                    Agile & DevOps
-                                </span>
-                                <span class="nav-btn__icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="49.294" height="62.254"
-                                        viewBox="0 0 49.294 62.254">
-                                        <g transform="translate(-3644.025 -618.282)">
-                                            <path
-                                                d="M1379.4,1342.818s11.725-7.728,15.488-10.509c2.615-1.933,4.068-5.55,4.068-9.322v-20.966c-9.025.628-19.552-8.793-19.557-8.8h0c-.005,0-10.532,9.425-19.557,8.8v20.966c0,3.773,1.453,7.39,4.068,9.322,3.763,2.781,15.489,10.509,15.489,10.509h0"
-                                                transform="translate(2289.269 -668.23)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <path
-                                                d="M1378.484,1346.754l-2.388-1.574c-.483-.318-11.868-7.825-15.68-10.642-3.65-2.7-5.829-7.488-5.829-12.813v-25.618l4.641.324q.286.02.576.02c5.8,0,13.3-5.518,15.75-7.691l2.93-2.758,2.929,2.759c2.454,2.172,9.947,7.69,15.749,7.69h0c.193,0,.386-.007.578-.02l4.641-.324v25.618c0,5.325-2.179,10.115-5.829,12.813-3.813,2.817-15.2,10.324-15.681,10.642Z"
-                                                transform="translate(2290.188 -666.968)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <path d="M1375.285,1318.791l6.058,6.058,11.921-11.921"
-                                                transform="translate(2286.57 -671.674)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <path d="M1387.182,1312.413a10.442,10.442,0,1,0,3.646,6.429"
-                                                transform="translate(2287.491 -671.161)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                        </g>
-                                    </svg>
-                                </span>
-                            </button>
-                        </li>
-                        <li class="courses-nav__item">
-                            <button class="nav-btn" data-for-course="3">
-                                <span class="nav-btn__text">
-                                    Front-End Development
-                                </span>
-                                <span class="nav-btn__icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="62" height="62" viewBox="0 0 62 62">
-                                        <defs>
-                                            <clipPath id="a">
-                                                <path data-name="Rectangle 163" transform="translate(3263 1233)"
-                                                    fill="currentColor" d="M0 0h62v62H0z" />
-                                            </clipPath>
-                                        </defs>
-                                        <g data-name="Mask Group 11" transform="translate(-3263 -1233)"
-                                            clip-path="url(#a)">
-                                            <g data-name="Group 187" fill="none" stroke="currentColor"
-                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-                                                <path data-name="Line 58" d="M3292.179 1276.286h3.068" />
-                                                <path data-name="Line 59" d="M3288.548 1285.578l.558-6.028" />
-                                                <path data-name="Line 60" d="M3298.319 1279.55l.558 6.028" />
-                                                <path data-name="Line 61" d="M3283.25 1285.579h20.924" />
-                                                <path data-name="Line 62" d="M3316.809 1250.786l-4.564-4.564" />
-                                                <path data-name="Line 63" d="M3312.179 1250.83l-4.278-4.278" />
-                                                <path data-name="Line 64" stroke-dasharray="0.53 2.65"
-                                                    d="M3316.457 1255.108l-4.278-4.278" />
-                                                <path data-name="Path 30"
-                                                    d="M3285.511 1252.23a5.094 5.094 0 10-5.094 5.095 5.094 5.094 0 005.094-5.095z" />
-                                                <g data-name="Group 85" transform="translate(3267 1242)">
-                                                    <rect data-name="Rectangle 30" width="53.425" height="37.339"
-                                                        rx="7.265" />
-                                                    <path data-name="Line 65" d="M0 31.104h53.425" />
-                                                </g>
-                                                <g data-name="Group 86">
-                                                    <path data-name="Rectangle 31"
-                                                        d="M3295.788 1261.528h17.174v11.333h-17.174z" />
-                                                    <path data-name="Rectangle 32"
-                                                        d="M3274.463 1261.528h17.174v11.333h-17.174z" />
-                                                </g>
-                                                <path data-name="Line 66" d="M3290.717 1248.866h13.238" />
-                                                <path data-name="Line 67" d="M3290.717 1255.585h7.01" />
-                                                <path data-name="Line 68" d="M3290.717 1252.225h13.238" />
-                                            </g>
-                                        </g>
-                                    </svg>
-                                </span>
-                            </button>
-                        </li>
-                        <li class="courses-nav__item">
-                            <button class="nav-btn" data-for-course="4">
-                                <span class="nav-btn__text">
-                                    Back-End Development
-                                </span>
-                                <span class="nav-btn__icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="78.76" height="58.468"
-                                        viewBox="0 0 78.76 58.468">
-                                        <g transform="translate(-3740.463 -780.713)">
-                                            <line x1="1.085" transform="translate(3775.817 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3762.795 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3756.284 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3749.773 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <path
-                                                d="M1132.688,1319.112v-13.787a6.325,6.325,0,0,0-6.325-6.325h-57.15a6.325,6.325,0,0,0-6.325,6.325v36.133a6.326,6.326,0,0,0,6.325,6.326h38.082"
-                                                transform="translate(2678.476 -517.387)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.8" />
-                                            <line x1="3.984" transform="translate(3774.271 826.135)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="41.711" transform="translate(3741.363 822.25)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="0.725" y1="7.828" transform="translate(3782.245 830.374)"
-                                                stroke-width="1.8" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" fill="none" />
-                                            <line x1="0.725" y2="7.828" transform="translate(3769.557 830.374)"
-                                                stroke-width="1.8" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" fill="none" />
-                                            <line x1="27.171" transform="translate(3762.678 838.202)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3782.329 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3795.029 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3782.006 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.098" transform="translate(3801.616 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3775.817 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3769.306 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3762.795 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3756.284 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3788.84 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3782.329 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.098" transform="translate(3801.616 797.527)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.098" transform="translate(3795.029 797.527)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3775.817 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3769.306 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3762.795 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3756.284 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3749.773 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3788.84 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3775.817 806.158)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3769.306 806.158)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3762.795 806.158)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3749.773 806.158)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3782.329 806.158)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3775.817 810.498)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3762.795 810.498)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3756.284 810.498)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3749.773 810.498)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3782.329 810.498)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <circle cx="14.996" cy="14.996" r="14.996"
-                                                transform="translate(3788.33 805.402)" fill="none" stroke="currentColor"
-                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" />
-                                            <line x1="1.085" transform="translate(3802.783 826.909)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3796.272 826.909)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3809.295 822.569)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3802.783 822.569)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3809.295 818.228)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3802.783 818.228)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3796.272 818.228)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3809.295 813.887)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3796.272 813.887)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                        </g>
-                                    </svg>
-                                </span>
-                            </button>
-                        </li>
-                        <li class="courses-nav__item">
-                            <button class="nav-btn" data-for-course="5">
-                                <span class="nav-btn__text">
-                                    Cloud Computing
-                                </span>
-                                <span class="nav-btn__icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="72.504" height="39.38"
-                                        viewBox="0 0 72.504 39.38">
-                                        <g transform="translate(-3631.766 -740.895)">
-                                            <path
-                                                d="M888.584,1581.88a10.415,10.415,0,0,1,0-20.831,10.3,10.3,0,0,1,4.665,1.15,18.9,18.9,0,0,1,37.434-2.931,12.185,12.185,0,1,1,6.287,22.611Z"
-                                                transform="translate(2754.347 -802.355)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <path d="M910.85,1553.618a11.294,11.294,0,0,1,11.063,9.094"
-                                                transform="translate(2755.611 -804.322)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <path d="M887.787,1570.557a4.557,4.557,0,0,1,4.551,4.553"
-                                                transform="translate(2803.532 -807.787)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                        </g>
-                                    </svg>
-                                </span>
-                            </button>
-                        </li>
-                        <li class="courses-nav__item">
-                            <button class="nav-btn" data-for-course="6">
-                                <span class="nav-btn__text">
-                                    Data Management
-                                </span>
-                                <span class="nav-btn__icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="68.311" height="58.08"
-                                        viewBox="0 0 68.311 58.08">
-                                        <g transform="translate(-3633.698 -847.863)">
-                                            <path
-                                                d="M1253.963,1591.372h-59.277a2.843,2.843,0,0,1-2.823-2.511l-.921-7.821a2.843,2.843,0,0,1,2.824-3.175h61.118a2.842,2.842,0,0,1,2.823,3.175l-.92,7.821A2.842,2.842,0,0,1,1253.963,1591.372Z"
-                                                transform="translate(2443.53 -686.18)" fill="none" stroke="currentColor"
-                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
-                                            <line x2="1.542" transform="translate(3693.931 900.367)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <path
-                                                d="M1253.963,1577.617h-59.277a2.843,2.843,0,0,1-2.823-2.511l-.921-7.821a2.844,2.844,0,0,1,2.824-3.176h61.118a2.843,2.843,0,0,1,2.823,3.176l-.92,7.821A2.843,2.843,0,0,1,1253.963,1577.617Z"
-                                                transform="translate(2443.53 -685.931)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <line x2="1.542" transform="translate(3693.931 886.86)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <path
-                                                d="M1253.963,1563.861h-59.277a2.842,2.842,0,0,1-2.823-2.51l-.921-7.821a2.843,2.843,0,0,1,2.824-3.176h61.118a2.842,2.842,0,0,1,2.823,3.176l-.92,7.821A2.841,2.841,0,0,1,1253.963,1563.861Z"
-                                                transform="translate(2443.53 -685.682)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <path
-                                                d="M1257.19,1551.228l-9.123-15.526a3.9,3.9,0,0,0-3.222-1.7h-41.021a3.9,3.9,0,0,0-3.223,1.7l-9.122,15.526"
-                                                transform="translate(2443.52 -685.387)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <line x2="1.542" transform="translate(3693.931 873.354)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="1.542" transform="translate(3640.101 900.367)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="1.542" transform="translate(3645.498 900.367)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="1.542" transform="translate(3640.101 886.86)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="1.542" transform="translate(3645.498 886.86)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="1.542" transform="translate(3640.101 873.354)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="1.542" transform="translate(3645.498 873.354)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                        </g>
-                                    </svg>
-                                </span>
-                            </button>
-                        </li>
-                        <li class="courses-nav__item">
-                            <button class="nav-btn" data-for-course="7">
-                                <span class="nav-btn__text">
-                                    IT & System
-                                </span>
-                                <span class="nav-btn__icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="77.785" height="65.073"
-                                        viewBox="0 0 77.785 65.073">
-                                        <g transform="translate(-3287.107 -985.379)">
-                                            <path
-                                                d="M-457.454,637.021v3.43H-487.74V579.446a2.164,2.164,0,0,1,2.163-2.164h25.96a2.163,2.163,0,0,1,2.163,2.164v1.339"
-                                                transform="translate(3775.597 408.847)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.5" />
-                                            <line x1="0.865" transform="translate(3299.107 1041.51)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="0.865" transform="translate(3293.915 1041.51)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="4.321" transform="translate(3293.915 1008.207)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="6.037" transform="translate(3293.915 1003.659)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="8.213" transform="translate(3293.915 999.111)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="14.699" transform="translate(3293.915 994.562)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="3.528" transform="translate(3331.661 1038.951)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line y1="6.932" x2="0.642" transform="translate(3327.485 1042.704)"
-                                                stroke-width="1.5" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" fill="none" />
-                                            <line x2="0.642" y2="6.932" transform="translate(3338.721 1042.704)"
-                                                stroke-width="1.5" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" fill="none" />
-                                            <line x2="24.062" transform="translate(3321.393 1049.637)"
-                                                stroke-width="1.5" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" fill="none" />
-                                            <line x1="5.248" y1="5.248" transform="translate(3354.736 1004.378)"
-                                                stroke-width="1.5" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" fill="none" />
-                                            <line x1="4.92" y1="4.92" transform="translate(3349.74 1004.758)"
-                                                stroke-width="1.5" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" fill="none" />
-                                            <line x1="4.92" y1="4.92" transform="translate(3354.66 1009.677)"
-                                                stroke-width="1.5" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" fill="none" />
-                                            <rect width="61.437" height="42.939" rx="8.354"
-                                                transform="translate(3302.706 999.523)" stroke-width="1.5"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x2="61.437" transform="translate(3302.706 1035.292)"
-                                                stroke-width="1.5" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" fill="none" />
-                                        </g>
-                                    </svg>
-                                </span>
-                            </button>
-                        </li>
-                        <li class="courses-nav__item">
-                            <button class="nav-btn" data-for-course="8">
-                                <span class="nav-btn__text">
-                                    QA & Testing
-                                </span>
-                                <span class="nav-btn__icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="78.76" height="58.468"
-                                        viewBox="0 0 78.76 58.468">
-                                        <g transform="translate(-3740.463 -780.713)">
-                                            <line x1="1.085" transform="translate(3775.817 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3762.795 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3756.284 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3749.773 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <path
-                                                d="M1132.688,1319.112v-13.787a6.325,6.325,0,0,0-6.325-6.325h-57.15a6.325,6.325,0,0,0-6.325,6.325v36.133a6.326,6.326,0,0,0,6.325,6.326h38.082"
-                                                transform="translate(2678.476 -517.387)" fill="none"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                stroke-width="1.8" />
-                                            <line x1="3.984" transform="translate(3774.271 826.135)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="41.711" transform="translate(3741.363 822.25)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="0.725" y1="7.828" transform="translate(3782.245 830.374)"
-                                                stroke-width="1.8" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" fill="none" />
-                                            <line x1="0.725" y2="7.828" transform="translate(3769.557 830.374)"
-                                                stroke-width="1.8" stroke="currentColor" stroke-linecap="round"
-                                                stroke-linejoin="round" fill="none" />
-                                            <line x1="27.171" transform="translate(3762.678 838.202)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3782.329 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3795.029 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3782.006 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.098" transform="translate(3801.616 793.136)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3775.817 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3769.306 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3762.795 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3756.284 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3788.84 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3782.329 797.476)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.098" transform="translate(3801.616 797.527)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.098" transform="translate(3795.029 797.527)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3775.817 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3769.306 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3762.795 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3756.284 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3749.773 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3788.84 801.817)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3775.817 806.158)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3769.306 806.158)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3762.795 806.158)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3749.773 806.158)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3782.329 806.158)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3775.817 810.498)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3762.795 810.498)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3756.284 810.498)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3749.773 810.498)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3782.329 810.498)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <circle cx="14.996" cy="14.996" r="14.996"
-                                                transform="translate(3788.33 805.402)" fill="none" stroke="currentColor"
-                                                stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" />
-                                            <line x1="1.085" transform="translate(3802.783 826.909)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3796.272 826.909)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3809.295 822.569)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3802.783 822.569)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3809.295 818.228)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3802.783 818.228)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3796.272 818.228)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3809.295 813.887)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                            <line x1="1.085" transform="translate(3796.272 813.887)" stroke-width="1.8"
-                                                stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                                fill="none" />
-                                        </g>
-                                    </svg>
-                                </span>
-                            </button>
-                        </li>
-                    </ul>
+                <svg class="icons__icon" xmlns="http://www.w3.org/2000/svg" width="78.76" height="58.468"
+                    viewBox="0 0 78.76 58.468">
+                    <g transform="translate(-3740.463 -780.713)">
+                        <line x1="1.085" transform="translate(3775.817 793.136)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3762.795 793.136)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3756.284 793.136)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3749.773 793.136)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <path
+                            d="M1132.688,1319.112v-13.787a6.325,6.325,0,0,0-6.325-6.325h-57.15a6.325,6.325,0,0,0-6.325,6.325v36.133a6.326,6.326,0,0,0,6.325,6.326h38.082"
+                            transform="translate(2678.476 -517.387)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" />
+                        <line x1="3.984" transform="translate(3774.271 826.135)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="41.711" transform="translate(3741.363 822.25)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="0.725" y1="7.828" transform="translate(3782.245 830.374)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="0.725" y2="7.828" transform="translate(3769.557 830.374)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="27.171" transform="translate(3762.678 838.202)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3782.329 793.136)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3795.029 793.136)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3782.006 793.136)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.098" transform="translate(3801.616 793.136)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3775.817 797.476)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3769.306 797.476)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3762.795 797.476)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3756.284 797.476)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3788.84 797.476)" stroke-width="1.8" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3782.329 797.476)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.098" transform="translate(3801.616 797.527)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.098" transform="translate(3795.029 797.527)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3775.817 801.817)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3769.306 801.817)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3762.795 801.817)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3756.284 801.817)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3749.773 801.817)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3788.84 801.817)" stroke-width="1.8" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3775.817 806.158)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3769.306 806.158)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3762.795 806.158)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3749.773 806.158)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3782.329 806.158)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3775.817 810.498)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3762.795 810.498)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3756.284 810.498)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3749.773 810.498)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3782.329 810.498)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <circle cx="14.996" cy="14.996" r="14.996" transform="translate(3788.33 805.402)" fill="none"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" />
+                        <line x1="1.085" transform="translate(3802.783 826.909)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3796.272 826.909)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3809.295 822.569)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3802.783 822.569)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3809.295 818.228)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3802.783 818.228)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3796.272 818.228)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3809.295 813.887)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="1.085" transform="translate(3796.272 813.887)" stroke-width="1.8"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    </g>
+                </svg>
+                <span class="icons__text">Back-End Development</span>
+            </a href="#">
+            <a href="#" class="icons__box">
 
-                    <a href="#" class="btn"> Download Full Course Index </a>
-                </nav>
-                <!-- END Course Nav -->
+                <svg class="icons__icon" xmlns="http://www.w3.org/2000/svg" width="49.294" height="62.254"
+                    viewBox="0 0 49.294 62.254">
+                    <g transform="translate(-3644.025 -618.282)">
+                        <path
+                            d="M1379.4,1342.818s11.725-7.728,15.488-10.509c2.615-1.933,4.068-5.55,4.068-9.322v-20.966c-9.025.628-19.552-8.793-19.557-8.8h0c-.005,0-10.532,9.425-19.557,8.8v20.966c0,3.773,1.453,7.39,4.068,9.322,3.763,2.781,15.489,10.509,15.489,10.509h0"
+                            transform="translate(2289.269 -668.23)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <path
+                            d="M1378.484,1346.754l-2.388-1.574c-.483-.318-11.868-7.825-15.68-10.642-3.65-2.7-5.829-7.488-5.829-12.813v-25.618l4.641.324q.286.02.576.02c5.8,0,13.3-5.518,15.75-7.691l2.93-2.758,2.929,2.759c2.454,2.172,9.947,7.69,15.749,7.69h0c.193,0,.386-.007.578-.02l4.641-.324v25.618c0,5.325-2.179,10.115-5.829,12.813-3.813,2.817-15.2,10.324-15.681,10.642Z"
+                            transform="translate(2290.188 -666.968)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <path d="M1375.285,1318.791l6.058,6.058,11.921-11.921" transform="translate(2286.57 -671.674)"
+                            fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="1.5" />
+                        <path d="M1387.182,1312.413a10.442,10.442,0,1,0,3.646,6.429"
+                            transform="translate(2287.491 -671.161)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                    </g>
+                </svg>
 
-                <!-- Course Menu -->
-                <div class="courses-menu">
-                    <div class="courses-menu__layout courses-menu__layout--active" data-course="1">
-                        <!-- Courses Layout 1-->
-                        <!-- Box 1 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="python" id="python">
-                            <label for="python" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
+                <span class="icons__text">Cyber Security</span>
+            </a href="#">
+            <a href="#" class="icons__box">
 
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Intro to Python</span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CB100i</span>
-                                </a>
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
+                <svg class="icons__icon" xmlns="http://www.w3.org/2000/svg" width="59.591" height="59.591"
+                    viewBox="0 0 59.591 59.591">
+                    <g transform="translate(-3648.218 -504.836)">
+                        <circle cx="16.269" cy="16.269" r="16.269" transform="translate(3701.609 511.036) rotate(90)"
+                            fill="none" stroke="currentColor" stroke-miterlimit="10" stroke-width="1.5" />
+                        <path d="M.787,4.066A10.829,10.829,0,0,1,0,0" transform="translate(3685.341 516.459) rotate(90)"
+                            fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
+                            stroke-width="1.5" />
+                        <path d="M0,6.778A10.85,10.85,0,0,1,10.057,0" transform="translate(3696.186 517.247) rotate(90)"
+                            fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10"
+                            stroke-width="1.5" />
+                        <path
+                            d="M56.941,51.518,39.492,34.069a21.726,21.726,0,1,0-5.423,5.423L51.518,56.942a3.836,3.836,0,0,0,5.423,0h0A3.836,3.836,0,0,0,56.941,51.518Z"
+                            transform="translate(3707.032 505.613) rotate(90)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-miterlimit="10" stroke-width="1.5" />
+                    </g>
+                </svg>
+                <span class="icons__text">QA & Testing</span>
+            </a href="#">
+            <a href="#" class="icons__box">
 
-                        <!-- Box2 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="ccna" id="ccna">
-                            <label for="ccna" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                            <a href="#" class="courses-menu__link">
-                                <span class="courses-menu__text">Cisco CCNA</span>
-                                <span class="courses-menu__text courses-menu__text--sub">CR100i</span>
-                            </a>
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
+                <svg class="icons__icon" xmlns="http://www.w3.org/2000/svg" width="72.504" height="39.38"
+                    viewBox="0 0 72.504 39.38">
+                    <g transform="translate(-3631.766 -740.895)">
+                        <path
+                            d="M888.584,1581.88a10.415,10.415,0,0,1,0-20.831,10.3,10.3,0,0,1,4.665,1.15,18.9,18.9,0,0,1,37.434-2.931,12.185,12.185,0,1,1,6.287,22.611Z"
+                            transform="translate(2754.347 -802.355)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <path d="M910.85,1553.618a11.294,11.294,0,0,1,11.063,9.094"
+                            transform="translate(2755.611 -804.322)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <path d="M887.787,1570.557a4.557,4.557,0,0,1,4.551,4.553"
+                            transform="translate(2803.532 -807.787)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                    </g>
+                </svg>
 
-                        <!-- Box 3 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="infrastructure"
-                                id="infrastructure">
-                            <label for="infrastructure" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                            <a href="#" class="courses-menu__link">
-                                <span class="courses-menu__text">Advanced Infrastructure Attacks</span>
-                                <span class="courses-menu__text courses-menu__text--sub">CR109</span>
-                            </a>
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                        <!-- Box 4 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="azure" id="azure">
-                            <label for="azure" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                            <a href="#" class="courses-menu__link">
-                                <span class="courses-menu__text">Microsoft Azure Administrator</span>
-                                <span class="courses-menu__text courses-menu__text--sub">CR101i</span>
-                            </a>
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                    </div> <!-- Courses Layout 1 /-->
+                <span class="icons__text">Cloud Computing</span>
+            </a href="#">
+            <a href="#" class="icons__box">
+                <svg class="icons__icon" xmlns="http://www.w3.org/2000/svg" width="68.311" height="58.08"
+                    viewBox="0 0 68.311 58.08">
+                    <g transform="translate(-3633.698 -847.863)">
+                        <path
+                            d="M1253.963,1591.372h-59.277a2.843,2.843,0,0,1-2.823-2.511l-.921-7.821a2.843,2.843,0,0,1,2.824-3.175h61.118a2.842,2.842,0,0,1,2.823,3.175l-.92,7.821A2.842,2.842,0,0,1,1253.963,1591.372Z"
+                            transform="translate(2443.53 -686.18)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <line x2="1.542" transform="translate(3693.931 900.367)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <path
+                            d="M1253.963,1577.617h-59.277a2.843,2.843,0,0,1-2.823-2.511l-.921-7.821a2.844,2.844,0,0,1,2.824-3.176h61.118a2.843,2.843,0,0,1,2.823,3.176l-.92,7.821A2.843,2.843,0,0,1,1253.963,1577.617Z"
+                            transform="translate(2443.53 -685.931)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <line x2="1.542" transform="translate(3693.931 886.86)" stroke-width="1.5" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <path
+                            d="M1253.963,1563.861h-59.277a2.842,2.842,0,0,1-2.823-2.51l-.921-7.821a2.843,2.843,0,0,1,2.824-3.176h61.118a2.842,2.842,0,0,1,2.823,3.176l-.92,7.821A2.841,2.841,0,0,1,1253.963,1563.861Z"
+                            transform="translate(2443.53 -685.682)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <path
+                            d="M1257.19,1551.228l-9.123-15.526a3.9,3.9,0,0,0-3.222-1.7h-41.021a3.9,3.9,0,0,0-3.223,1.7l-9.122,15.526"
+                            transform="translate(2443.52 -685.387)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <line x2="1.542" transform="translate(3693.931 873.354)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="1.542" transform="translate(3640.101 900.367)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="1.542" transform="translate(3645.498 900.367)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="1.542" transform="translate(3640.101 886.86)" stroke-width="1.5" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="1.542" transform="translate(3645.498 886.86)" stroke-width="1.5" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="1.542" transform="translate(3640.101 873.354)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="1.542" transform="translate(3645.498 873.354)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    </g>
+                </svg>
 
-                    <div class="courses-menu__layout" data-course="2">
-                        <!-- Box 5 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="linux" id="linux">
-                            <label for="linux" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                            <a href="#" class="courses-menu__link">
-                                <span class="courses-menu__text">Linux Administration</span>
-                                <span class="courses-menu__text courses-menu__text--sub">CR101i</span>
-                            </a>
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                        <!-- Box 6 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="iot" id="iot">
-                            <label for="iot" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                            <a href="#" class="courses-menu__link">
-                                <span class="courses-menu__text">IoT Exploitation</span>
-                                <span class="courses-menu__text courses-menu__text--sub">CR114</span>
-                            </a>
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
+                <span class="icons__text">Data Management</span>
+            </a href="#">
 
-                        <!-- Box 7 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="cyber1" id="cyber1">
-                            <label for="cyber1" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Cyber Awareness CB101</span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CR115</span>
-                                </a>
+            <a href="#" class="icons__box">
+                <svg class="icons__icon" xmlns="http://www.w3.org/2000/svg" width="77.785" height="65.073"
+                    viewBox="0 0 77.785 65.073">
+                    <g transform="translate(-3287.107 -985.379)">
+                        <path
+                            d="M-457.454,637.021v3.43H-487.74V579.446a2.164,2.164,0,0,1,2.163-2.164h25.96a2.163,2.163,0,0,1,2.163,2.164v1.339"
+                            transform="translate(3775.597 408.847)" fill="none" stroke="currentColor"
+                            stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" />
+                        <line x1="0.865" transform="translate(3299.107 1041.51)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="0.865" transform="translate(3293.915 1041.51)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="4.321" transform="translate(3293.915 1008.207)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="6.037" transform="translate(3293.915 1003.659)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="8.213" transform="translate(3293.915 999.111)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="14.699" transform="translate(3293.915 994.562)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="3.528" transform="translate(3331.661 1038.951)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line y1="6.932" x2="0.642" transform="translate(3327.485 1042.704)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="0.642" y2="6.932" transform="translate(3338.721 1042.704)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x2="24.062" transform="translate(3321.393 1049.637)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="5.248" y1="5.248" transform="translate(3354.736 1004.378)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="4.92" y1="4.92" transform="translate(3349.74 1004.758)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <line x1="4.92" y1="4.92" transform="translate(3354.66 1009.677)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                        <rect width="61.437" height="42.939" rx="8.354" transform="translate(3302.706 999.523)"
+                            stroke-width="1.5" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            fill="none" />
+                        <line x2="61.437" transform="translate(3302.706 1035.292)" stroke-width="1.5"
+                            stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" fill="none" />
+                    </g>
+                </svg>
+                <span class="icons__text">IT & System</span>
+            </a href="#">
+        </div>
 
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
+    </section>
+    <!-- Experties Section END -->
 
-                        <!-- Box 8 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="web" id="web">
-                            <label for="web" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                            <a href="#" class="courses-menu__link"></a>
-                                <span class="courses-menu__text">Web Application Development</span>
-                                <span class="courses-menu__text courses-menu__text--sub">CR103i</span>
-                            </a>
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-
-                    </div> <!-- layout 2 /-->
-
-                    <div class="courses-menu__layout" data-course="3">
-                        <!-- Box 9 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="reverse" id="reverse">
-                            <label for="reverse" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Reverse Engineering</span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CR113</span>
-                                </a>
-
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-
-                        <!-- Box 10 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="python2" id="python2">
-                            <label for="python2" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                            <a href="#" class="courses-menu__link"></a>
-                                <span class="courses-menu__text">Python Programing for Security & Hacking</span>
-                                <span class="courses-menu__text courses-menu__text--sub">CR106</span>
-                            </a>
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                        <!-- Box 11 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="microsoft3" id="microsoft3">
-                            <label for="microsoft3" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Microsoft Security </span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CR106</span>
-                                </a>
-
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                        <!-- Box 12 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="microsoft2" id="microsoft2">
-                            <label for="microsoft2" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Microsoft Security</span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CR106</span>
-                                </a>
-
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                    </div>
-
-
-                    <div class="courses-menu__layout" data-course="4">
-                        <!-- Box 13 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="web2" id="web2">
-                            <label for="web2" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Web Application Penetration Testing</span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CR110</span>
-                                </a>
-
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                        <!-- Box 14 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="linux2" id="linux2">
-                            <label for="linux2" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Linux Security</span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CB104</span>
-                                </a>
-
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                        <!-- Box 14 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="soc" id="soc">
-                            <label for="soc" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">SIEM & SOC</span>
-                                    <span class="courses-menu__text courses-menu__text--sub"> CR107</span>
-                                </a>
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-
-                        <!-- Box 15 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="xplatform" id="xplatform">
-                            <label for="xplatform" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Cross-Platform Elevation of Privileges</span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CR108</span>
-                                </a>
-
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                    </div>
-
-                    <div class="courses-menu__layout" data-course="5">
-                        <!-- Box 16 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="offensive" id="offensive">
-                            <label for="offensive" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Offensive Security Ethical Hacking</span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CB109</span>
-                                </a>
-
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                    </div>
-                    <div class="courses-menu__layout" data-course="6">
-                        <!-- Box 17 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="forensics" id="forensics">
-                            <label for="forensics" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Digital Forensics & Incident Response</span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CB110</span>
-                                </a>
-
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                    </div>
-                    <div class="courses-menu__layout" data-course="7">
-                        <!-- Box 18 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="cyber2" id="cyber2">
-                            <label for="cyber2" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Cyber Security for IT & SOC</span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CB111</span>
-                                </a>
-
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                    </div>
-                    <div class="courses-menu__layout" data-course="8">
-                        <!-- Box 16 -->
-                        <div class="courses-menu__box">
-                            <input type="checkbox" class="courses-menu__input" name="android" id="android">
-                            <label for="android" class="courses-menu__label">
-                                <span class="courses-menu__check">
-                                    <svg class="bi bi-check" width="1em" height="1em" viewBox="0 0 14 14"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd" fill="currentColor"
-                                            d="M10.97 4.97a.75.75 0 0 1 1.071 1.05l-3.992 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.236.236 0 0 1 .02-.022z" />
-                                    </svg>
-                                </span>
-                                <a href="#" class="courses-menu__link">
-                                    <span class="courses-menu__text">Android - Mobile Security</span>
-                                    <span class="courses-menu__text courses-menu__text--sub">CR111</span>
-                                </a>
-
-                                <span class="courses-menu__arrow">
-                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right"
-                                        fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                        <path fill-rule="evenodd"
-                                            d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
-                                    </svg>
-                                </span>
-                            </label>
-                        </div>
-                        <!-- Box /-->
-                    </div>
-
-                </div>
-                <!-- Course Menu -->
+     <!-- About Section START -->
+     <section class="about" id="about">
+        <div class="about__top">
+            <img class="about__img" src="./assets/img/home-page/img-about.png" alt="">
+            <img class="about__img--mobile" src="./assets/img/home-page/img-about-mobile.png" alt="">
+            <div class="about__content">
+                <h2 class="heading">About Us</h2>
+                <p class="para para--about">
+                    <strong>HackerU Pro</strong> aim to lead the global B2B market, in technology & cyber security
+                    training. HackerU Pro is a subsidiary of HackerU - a World-Renowned Provider of Technology
+                    Education, Cybersecurity Services, and High-Caliber Knowledge Transfer.
+                    <br>
+                    <br>
+                    We offer professional enrichment courses, on-site & online custom training, seminars and events on a
+                    wide array of relevant technologies for individuals and companies seeking to upgrade their skills.
+                    <br>
+                    <br>
+                    Our dedicated, talented instructors are industry leaders in their respective fields and their vast
+                    hands-on experience allow them to take your team to next professional level.
+                    <br>
+                    <br>
+                    HackerU Pro world-wide experience with a variety of B2B clients have made us Experts in Tailor-Made
+                    Technology & Cyber Security Training
+                </p>
             </div>
         </div>
-    </section>
-
-
-
-
-    <section class="quote" id="quote">
-        <div class="container">
-            <div class="quote__inner">
-
-                <!-- HEADING -->
-                <div class="quote__heading">
-                    <h2 class="heading">Reuqest a Quote</h2>
-                </div>
-                <!-- CONTENT -->
-                <div class="quote__content">
-                    <p class="lead">
-                        Want to request a quote for your selected courses?
-                        <br>
-                        Leave us your details and our team will contact you within 24h.
-                    </p>
-                </div>
-
-                <!-- FORM -->
-
-                <div class="quote__form">
-                    <form action="" id="form" method="POST" class="form">
-                        <div class="form__group">
-                            <input type="text" name="fullname" class="form__control" id="fullname" placeholder="Name">
-                            <label class="sr-only" for="fullname">fullname</label>
-                        </div>
-                        <div class="form__group">
-                            <input type="tel" name="phone" class="form__control" id="phone" placeholder="Phone">
-                            <label class="sr-only" for="phone">phone</label>
-                        </div>
-                        <div class="form__group">
-                            <input type="email" name="email" class="form__control" id="email" placeholder="E-mail">
-                            <label class="sr-only" for="email">email</label>
-                        </div>
-                        <div class="form__group">
-                            <input type="text" name="company" class="form__control" id="company" placeholder="Company">
-                            <label class="sr-only" for="company">Company name</label>
-                        </div>
-                        <div class="form__group">
-                            <input type="submit" name="submit" class="form__btn" value="Send">
-                        </div>
-                    </form>
-                </div>
-
-                <!-- SELECTION -->
-                <div class="quote__selection">
-                    <p class="text">Your Selected Courses:</p>
-                    <p class="text--empty">
-                        Didn’t find the course that fits? 
-                        send us your details and  and we will offer you
-                        <strong>tailor-made solution</strong> for your company’s specific needs.
-                    </p>
-                    <ul class="quote__selection__list" id="selected___courses">
-                    </ul>
-                </div>
+        <div class="text-strip text-strip--wide">
+            <div class="container">
+                <p class="lead lead--lg">
+                    HackerU Pro world-wide experience with a variety of B2B clients have made us Experts in
+                    <strong>Tailor-Made Technology & Cyber Security Training.</strong>
+                </p>
             </div>
-
+           
         </div>
     </section>
+    <!-- About Section END -->
 
+      <!-- Customers Section START -->
+      <section class="customers">
 
+        <h2 class="heading">
+            among our customers
+        </h2>
+        
+        <div class="customers__logos">
+            <div class="customers__logo">
+                <img src="./assets/img/customers/client1.png" alt="">
+            </div>
+            <div class="customers__logo">
+                <img src="./assets/img/customers/client2.png" alt="">
+            </div>
+            <div class="customers__logo">
+                <img src="./assets/img/customers/client3.png" alt="">
+            </div>
+            <div class="customers__logo">
+                <img src="./assets/img/customers/client4.png" alt="">
+            </div>
+            <div class="customers__logo">
+                <img src="./assets/img/customers/client5.png" alt="">
+            </div>
+            <div class="customers__logo">
+                <img src="./assets/img/customers/client6.png" alt="">
+            </div>
+            <div class="customers__logo">
+                <img src="./assets/img/customers/client7.png" alt="">
+            </div>
+            <div class="customers__logo">
+                <img src="./assets/img/customers/client8.png" alt="">
+            </div>
+            <div class="customers__logo">
+                <img src="./assets/img/customers/client9.png" alt="">
+            </div>
+            <div class="customers__logo">
+                <img src="./assets/img/customers/client10.png" alt="">
+            </div>
+            <div class="customers__logo">
+                <img src="./assets/img/customers/client11.png" alt="">
+            </div>
+        </div>
 
+    </section>
+    <!-- Customers Section END -->
 
+    <!-- Testimonials Section START -->
+    <section class="testimonials">
 
+        <div class="testimonials__graphic">
+            <img src="./assets/img/testimonials/quote.svg" alt="">
+        </div>
 
+        <div class="swiper-container testimonials-slider">
+            <div class="swiper-wrapper">
+                <!-- Testimonial #1 -->
+                <div class="swiper-slide testimonials-slider__slide">
+                    <div class="testimonials-slider__img">
+                        <img src="./assets/img/testimonials/testi1.png" alt="">
+                    </div>
+                    <p class="testimonials-slider__text">
+                        "HackerU empowered TTNI Thailand and affiliated companies with a tailor-made SOC-focused training program that helped changing our approach to how we protect our data"
+                    </p>
+                    <div class="testimonials-slider__profile">
+                        <p class="name">Min Yang</p>
+                        <p class="role">Division Manager</p>
+                        <p class="company">Ttoyota (TTNI)</p>
+                    </div>
+                </div>
+                <!-- Testimonial #2 -->
+                <div class="swiper-slide testimonials-slider__slide">
+                    <div class="testimonials-slider__img">
+                        <img src="./assets/img/testimonials/testi2.png" alt="">
+                    </div>
+                    <p class="testimonials-slider__text">
+                        "HackerU empowered TTNI Thailand and affiliated companies with a tailor-made SOC-focused training program that helped changing our approach to how we protect our data"
+                    </p>
+                    <div class="testimonials-slider__profile">
+                        <p class="name">Min Yang</p>
+                        <p class="role">Division Manager</p>
+                        <p class="company">Ttoyota (TTNI)</p>
+                    </div>
+                </div>
+                <!-- Testimonial #3 -->
+                <div class="swiper-slide testimonials-slider__slide">
+                    <div class="testimonials-slider__img">
+                        <img src="./assets/img/testimonials/testi3.png" alt="">
+                    </div>
+                    <p class="testimonials-slider__text">
+                        "HackerU empowered TTNI Thailand and affiliated companies with a tailor-made SOC-focused training program that helped changing our approach to how we protect our data"
+                    </p>
+                    <div class="testimonials-slider__profile">
+                        <p class="name">Min Yang</p>
+                        <p class="role">Division Manager</p>
+                        <p class="company">Ttoyota (TTNI)</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination" id="testimonials-pagination"></div>
+        </div>
+    </section>
 
     <section class="contact">
-        <div class="container">
+    <h2 class="heading">Contact Us</h2>
 
-            <div class="box">
-                <div class="box__top">
-                    <div class="box__item">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
-                            class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 512 512">
-                            <path fill="currentColor"
-                                d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
-                            </path>
-                        </svg>
-                        <a href="mailto:Info@hackerupro.com">Info@hackerupro.com</a>
-                    </div>
-                    <div class="box__item">
-                        <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone-alt"
-                            class="svg-inline--fa fa-phone-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 512 512">
-                            <path fill="currentColor"
-                                d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z">
-                            </path>
-                        </svg>
-
-                        <a href="tel:972355558588">(972)355-558588</a>
-                    </div>
-                </div>
-                <ul class="box__inner">
-                    <li>Israel</li>
-                    <li>Poland</li>
-                    <li>USA</li>
-                    <li>Russia</li>
-                    <li>India</li>
-                </ul>
-            </div>
-
+    <form action="" class="form">
+        <!-- Regular Inputs -->
+        <div class="form__group">
+            <input type="text" name="fullname" class="form__control" id="fullname" placeholder="Name">
+            <label class="sr-only" for="fullname">fullname</label>
         </div>
+        <div class="form__group">
+            <input type="tel" name="phone" class="form__control" id="phone" placeholder="Phone">
+            <label class="sr-only" for="phone">phone</label>
+        </div>
+        <div class="form__group">
+            <input type="email" name="email" class="form__control" id="email" placeholder="E-mail">
+            <label class="sr-only" for="email">email</label>
+        </div>
+        <div class="form__group">
+            <input type="text" name="company" class="form__control" id="company" placeholder="Company">
+            <label class="sr-only" for="company">Company name</label>
+        </div>
+        <div class="form__group">
+            <input type="text" name="title" class="form__control" id="title" placeholder="Your Title">
+            <label class="sr-only" for="company">Title</label>
+        </div>
+        <!-- Regular Inputs -->
 
-    </section>
+        <div class="select-box">
+        <!-- Select/Options Dropdown -->
+        <div class="select-box__selected">
+            <p class="select-box__text">
+                I want information about
+            </p>
+            <svg class="select-box__arrow" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-down" class="svg-inline--fa fa-chevron-down fa-w-14" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M207.029 381.476L12.686 187.132c-9.373-9.373-9.373-24.569 0-33.941l22.667-22.667c9.357-9.357 24.522-9.375 33.901-.04L224 284.505l154.745-154.021c9.379-9.335 24.544-9.317 33.901.04l22.667 22.667c9.373 9.373 9.373 24.569 0 33.941L240.971 381.476c-9.373 9.372-24.569 9.372-33.942 0z"></path></svg>
+        </div>
+    
+     <!-- The Dropdown list -->
+     <div class="select-box__options">
+        <div class="select-box__option">
+            <input type="radio" class="radio-input" name="option" id="option1">
+            <label for="option1">Option 1</label>
+        </div>
+        <div class="select-box__option">
+            <input type="radio" class="radio-input" name="option" id="option2">
+            <label for="option2">Option 2</label>
+        </div>
+        <div class="select-box__option">
+            <input type="radio" class="radio-input" name="option" id="option3">
+            <label for="option3">Option 3</label>
+        </div>
+        <div class="select-box__option">
+            <input type="radio" class="radio-input" name="option" id="option4">
+            <label for="option4">Option 4</label>
+        </div>
+        <div class="select-box__option">
+            <input type="radio" class="radio-input" name="option" id="option5">
+            <label for="option5">Option 5</label>
+        </div>
+        <div class="select-box__option">
+            <input type="radio" class="radio-input" name="option" id="option6">
+            <label for="option6">Option 6</label>
+        </div>
+        <div class="select-box__option">
+            <input type="radio" class="radio-input" name="option" id="option7">
+            <label for="option7">Option 7</label>
+        </div>
+    </div>
+</div>
+   <!-- END OF Select/Options Dropdown -->
+
+   <!-- Text Area Element -->
+   <div class="form__group form__group--msg">
+    <textarea name="" placeholder="Message details" class="form__control form__control--msg"></textarea>
+</div>
+
+<!-- Checkbox -->
+<div class="form__group form__group--checkbox">
+    <input type="checkbox" name="check" id="check">
+    <label for="check">
+        Yes, I agree to HackerU's Privacy Policy and to receive promotional material. 
+    </label>
+</div>
+
+<!-- Submit Button -->
+<div class="form__group form__group--full">
+    <input type="submit" class="form__btn" value="Send" />
+</div>
+
+    </form>
+
+    <div class="box">
+        <div class="box__top">
+            <div class="box__item">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
+                    class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                    </path>
+                </svg>
+                <a href="mailto:Info@hackerupro.com">Info@hackerupro.com</a>
+            </div>
+            <div class="box__item">
+                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="phone-alt"
+                    class="svg-inline--fa fa-phone-alt fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                        d="M497.39 361.8l-112-48a24 24 0 0 0-28 6.9l-49.6 60.6A370.66 370.66 0 0 1 130.6 204.11l60.6-49.6a23.94 23.94 0 0 0 6.9-28l-48-112A24.16 24.16 0 0 0 122.6.61l-104 24A24 24 0 0 0 0 48c0 256.5 207.9 464 464 464a24 24 0 0 0 23.4-18.6l24-104a24.29 24.29 0 0 0-14.01-27.6z">
+                    </path>
+                </svg>
+
+                <a href="tel:972355558588">(972)355-558588</a>
+            </div>
+        </div>
+        <ul class="box__inner">
+            <li>Israel</li>
+            <li>Poland</li>
+            <li>USA</li>
+            <li>Russia</li>
+            <li>India</li>
+        </ul>
+    </div>
+ 
+</section>
+
+
 
     <footer class="footer">
         <div class="container container--wide footer__inner">
@@ -1444,11 +850,11 @@
 
     </footer>
 
-
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"
         integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="./assets/js/app.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/form.js"></script>
+    <script src="./assets/js/home.js"></script>
 </body>
 
 </html>
